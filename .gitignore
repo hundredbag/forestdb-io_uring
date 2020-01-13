@@ -1,0 +1,55 @@
+# Keep the entries sorted to reduce the risk for a merge conflict
+*.[ao]
+couchstore_api/couchbench_fdb
+build
+coverage
+platform
+dummy2
+errorlog.txt
+forestdb_test
+libforestdb.so
+libforestdb_couch.so
+src/wc
+tests/bcache_test
+tests/btreeblock_test
+tests/crc_test
+tests/docio_test
+tests/filemgr_test
+tests/hash_test
+tests/hbtrie_test
+tests/list_test
+tests/mempool_test
+wt2
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
